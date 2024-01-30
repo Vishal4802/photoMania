@@ -2,7 +2,7 @@ import { FC, useEffect, useState } from 'react';
 import './result.css';
 import Skeleton from '../../component/skeleton/skeleton';
 import PopUp from '../../component/popUp/popUp';
-import {ApiKeys} from '../../../hide';
+import {ApiKeys} from '../../../config';
 
 interface ResultProp {
   searchValue: string;
