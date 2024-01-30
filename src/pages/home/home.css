@@ -1,0 +1,30 @@
+h3 {
+    text-align: center;
+    margin-top: 5vw;
+    margin-bottom: 4vw;
+}
+
+.source {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+}
+
+.source > img {
+    width: 200px;
+    height: 40px;
+    object-fit: cover;
+    overflow: visible;
+}
+
+@media (max-width: 800px) {
+    .source {
+        flex-direction: column;
+        gap: 6vw;
+    }
+    .source > img {
+        width: 200px;
+        height: 80px;
+    }
+}
